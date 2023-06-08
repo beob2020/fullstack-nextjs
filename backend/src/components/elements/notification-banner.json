@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_elements_notification_banner_s",
+  "info": {
+    "displayName": "Notification Banner ",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "alert",
+        "info",
+        "warning"
+      ]
+    },
+    "heading": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    },
+    "show": {
+      "type": "boolean"
+    },
+    "link": {
+      "displayName": "Link",
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
+    }
+  }
+}
